@@ -1,0 +1,10 @@
+{
+  "0": {
+    "name": "win",
+    "function": "ok"
+  },
+  "1": {
+    "name": "loose",
+    "function": "checked"
+  }
+}

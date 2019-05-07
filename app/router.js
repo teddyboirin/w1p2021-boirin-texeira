@@ -2,7 +2,10 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 import Home from './components/Home.vue';
-import Page from './components/Page.vue';
+import Character from './components/Character.vue';
+import Game from './components/Game.vue';
+import Win from './components/Win.vue';
+import Loose from './components/Loose.vue';
 
 Vue.use(Router);
 
@@ -13,18 +16,33 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      component: Home,
+      component: Home
     },
     {
-      path: '/page',
-      name: 'page',
-      component: Page,
+      path: '/character',
+      name: 'character',
+      component: Character
+    },
+    {
+      path: '/game',
+      name: 'game',
+      component: Game
+    },
+    {
+      path: '/win',
+      name: 'win',
+      component: Win
+    },
+    {
+      path: '/loose',
+      name: 'loose',
+      component: Loose
     },
     {
       path: '*',
-      redirect: { name: 'home' },
-    },
-  ],
+      redirect: { name: 'home' }
+    }
+  ]
 });
 
 export default router;
