@@ -29,6 +29,11 @@ const router = new Router({
       component: Game
     },
     {
+      path: '/game/:id',
+      name: 'game',
+      component: Game
+    },
+    {
       path: '/win',
       name: 'win',
       component: Win
@@ -38,6 +43,7 @@ const router = new Router({
       name: 'loose',
       component: Loose
     },
+
     {
       path: '*',
       redirect: { name: 'home' }

@@ -4,8 +4,8 @@ URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Teddy Boirin
+- Céline Teixeira
 
 ## Prologue
 
@@ -26,8 +26,9 @@ Le projet doit être construit avec le framework [VueJS](https://vuejs.org/).
 ### Lancer le projet
 
 Se mettre dans un terminal dans le répertoire du projet forké, puis :
-* `npm i`
-* `npm run dev`
+
+- `npm i`
+- `npm run dev`
 
 #### Plugins conseillés
 
