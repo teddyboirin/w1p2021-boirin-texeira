@@ -13,7 +13,8 @@ import data from '../../data.json';
 export default {
   data() {
     return {
-      message: data[0].name
+      message: data[0].name,
+      game: true
     };
   }
 };
