@@ -1,7 +1,7 @@
 @import "reset";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
 
-$hetic-green: #0de595;
+$background: #1c1c1c;
 
 body,
 button,
@@ -12,7 +12,7 @@ textarea {
 }
 
 .big-header {
-  background-color: $hetic-green;
+  background-color: $background;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ textarea {
 }
 
 .button {
-  color: $hetic-green;
+  color: $background;
   text-decoration: none;
   background: white;
   padding: 5px;
@@ -31,6 +31,7 @@ textarea {
   display: inline-block;
   border: none;
   margin-bottom: 10px;
+  margin-top:10px;
 }
 .pane-leave-active,
 .pane-enter-active {
@@ -43,7 +44,7 @@ textarea {
     right: 0;
     bottom: 0;
     transform: translateX(100vw);
-    background: $hetic-green;
+    background: $background;
   }
 }
 
@@ -75,5 +76,35 @@ textarea {
   }
   to {
     transform: translateX(-100vw);
+  }
+}
+
+
+.background__one {
+  background: url('../Background1.png');
+  background-size: cover;
+}
+
+.game {
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .button-game {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #790000;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-shadow: black 0 0 3px;
+    box-shadow: black 0 0 3px;
   }
 }

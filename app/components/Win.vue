@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      message: 'page win'
+      message: "page win"
     };
   }
 };
