@@ -1,19 +1,25 @@
 <template>
   <div class="big-header background__one">
     <div class="game">
-      <router-link class="button-game" to="/character">Jouer</router-link>
+      <router-link class="button-game button" to="/character" @click="incrementTime">Jouer</router-link>
     </div>
   </div>
 </template>
 
 <script>
-import data from "../data.json";
+import data from "../data";
 
 export default {
   data() {
     return {
-      message: "Page Home"
+      time: 1
     };
+  },
+  methods: {
+    incrementTime() {
+      let increment = setTimeout(this.time + 1, 100);
+      localStorage.setItem(time, increment);
+    }
   }
 };
 </script>

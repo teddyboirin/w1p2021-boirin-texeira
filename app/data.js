@@ -1,4 +1,4 @@
-{
+export default {
   "steps": [
     {
       "id": 1,
@@ -17,6 +17,7 @@
     {
       "id": 2,
       "title": "Où souhaitez-vous chercher de quoi vous armer ?",
+      "background": require("/assets/chambrehopital.png"),
       "actions": [
         {
           "title": "Dans la chambre ?",
@@ -41,6 +42,7 @@
     {
       "id": 3,
       "title": "Vous avez trouvé un katana. Souhaitez-vous sortir par la fenêtre ou prendre les escaliers ?",
+      "background": require("/assets/background_creepy.png"),
       "actions": [
         {
           "title": "Prendre les escaliers",
@@ -65,6 +67,7 @@
     {
       "id": 4,
       "title": "Vous êtes dehors. Où souhaitez-vous aller ?",
+      "background": require("/assets/ville.png"),
       "actions": [
         {
           "title": "À droite ?",
@@ -89,6 +92,7 @@
     {
       "id": 5,
       "title": "Vous avez choisis le chemin de droite. Vous arrivez devant une église et vous y rentrez. Vous souhaitez : ",
+      "background": require("/assets/eglise.png"),
       "actions": [
         {
           "title": "Regarder dans le cercueuil ouvert ?",
@@ -113,6 +117,7 @@
     {
       "id": 6,
       "title": "Vous avez trouver une carte dans le cercueil, suite à ça, vous décider de retourner dehors.",
+      "background": require("/assets/carte.png"),
       "actions": [
         {
           "title": "Continuer à marcher",
@@ -137,6 +142,7 @@
     {
       "id": 7,
       "title": "Une voiture abandonnée croise votre chemin. Il y a encore les clés dessus. ",
+      "background": require("/assets/maison.png"),
       "actions": [
         {
           "title": "Ne pas faire confiance à cette voiture, et continuer à pied",
@@ -161,6 +167,7 @@
     {
       "id": 8,
       "title": "Vous avez marcher 10 mn, et vous êtes arrivé dans un cimetière. Il y a un cerceuil ouvert et un trou qui n'est pas fermé. ",
+      "background": require("/assets/cimetiere.png"),
       "actions": [
         {
           "title": "Prendre la bague",
@@ -185,9 +192,11 @@
     {
       "id": 9,
       "title": "Mince ! un loup se dirige vers vous !! Ce loup à l'air un peu différent des loups que l'ont connait.",
+      "background": require("/assets/loup.png"),
       "actions": [
         {
           "title": "Utiliser le catana et te battre",
+
           "to": 10
         },
         {
@@ -229,6 +238,8 @@
     {
       "id": 10,
       "title": "Bravo !! tu as gagné le combat. Depuis le temps que tu es dans cette ville abandonnée, tu ne t'es pas nourrie.",
+      "background": require("/assets/loup.png"),
+
       "actions": [
         {
           "title": "Manger le loup ?",
@@ -252,10 +263,12 @@
     },
     {
       "id": 11,
-      "title": "Hmmm ! Quel délicieux repas, tu as récupéré un tout petit peu de force ce qui t'a permis d'arriver dans une maison qui semble pour t'accueilir convenablement",
+      "title": "Tu as bien fais de laisser le cadavre et de ne pas te nourrir car le loup était empoisonné ! Désormais, tu es arrivé dans une maison très calme",
+      "background": require("/assets/maison.png"),
       "actions": [
         {
           "title": "Faire une sieste pour récupérer quelques forces",
+
           "to": 12
         },
         {
@@ -277,6 +290,7 @@
     {
       "id": 12,
       "title": "Tu as dormis 1 heure ! Tu as fais le pleins de forces !!",
+      "background": require("/assets/maison.png"),
       "actions": [
         {
           "title": "Décider de sortir de la ville avant la nuit qui approche",
@@ -301,6 +315,7 @@
     {
       "id": 13,
       "title": "Tu es maintenant dehors. Mais il y a des enfants qui semblent avoir besoin d'aide dans la maison voisine.",
+      "background": require("/assets/maison__voisine.png"),
       "actions": [
         {
           "title": "Aider les enfants",
@@ -325,6 +340,7 @@
     {
       "id": 14,
       "title": "Bravo ! tu es sortie de la ville en vie ! ",
+      "background": require("/assets/route.png"),
       "actions": [
         {
           "title": "Marcher jusqu'à la prochaine ville peuplée",
@@ -349,6 +365,7 @@
     {
       "id": 15,
       "title": "La nuit approche et ici la nuit tombe très vite !",
+      "background": require("/assets/route.png"),
       "actions": [
         {
           "title": "Attendre que le jour se lève afin de ne pas aller n'importe où",
@@ -373,6 +390,7 @@
     {
       "id": 16,
       "title": "Tu as marché trop longtemps et tu es arrivé dans une forêt où il y a une cabane",
+      "background": require("/assets/cabane.png"),
       "actions": [
         {
           "title": "Visiter cette cabane",
@@ -397,6 +415,7 @@
     {
       "id": 17,
       "title": "Tu as bien fais de rentrer dans cette cabane car dehors, des loups se dirigaient vers toi! tu t'es sauvé!",
+      "background": require("/assets/interieurcabane.png"),
       "actions": [
         {
           "title": "Admirer les loups qui rodent",
@@ -421,6 +440,7 @@
     {
       "id": 18,
       "title": "Tu as trouvé la cave de la maison",
+      "background": require("/assets/cave.png"),
       "actions": [
         {
           "title": "Faire un tour dans cette cave voir ce qu'il s'y cache",
@@ -445,6 +465,7 @@
     {
       "id": 19,
       "title": "Il fait sombre dans cette cave",
+      "background": require("/assets/cave.png"),
       "actions": [
         {
           "title": "Utiliser le briquet qui est dans ma poche",
@@ -469,6 +490,7 @@
     {
       "id": 20,
       "title": "Il y a une boite à outils entre-ouverte et un frigo juste à côté",
+      "background": require("/assets/cave.png"),
       "actions": [
         {
           "title": "Regarder à l'intérieur de la boite à outils",
@@ -493,6 +515,7 @@
     {
       "id": 21,
       "title": "Tu as trouvé une boussole qui n'indique qu'une seule direction !",
+      "background": require("/assets/boussole.png"),
       "actions": [
         {
           "title": "Suivre la direction indiquée par la boussole correspond au chemin tracé sur la carte",
@@ -517,6 +540,7 @@
     {
       "id": 21,
       "title": "Tu es arrivé dans un bunker où le symbole de la carte correspond au symbole sur la porte de ce bunker",
+      "background": require("/assets/bunker.png"),
       "actions": [
         {
           "title": "Lire les notes posées sur la table du bunker",
@@ -541,6 +565,7 @@
     {
       "id": 22,
       "title": "Tu as trouvé une note où des informations à propos de cette ville étaient notées",
+      "background": require("/assets/notes.png") + 'background-size: cover',
       "actions": [
         {
           "title": "Continuer de lire",
@@ -565,6 +590,7 @@
     {
       "id": 23,
       "title": "Oui, tu as bien lu ! il y a bien un antidote caché dans ce bunker !",
+      "background": require("/assets/note__antidote.png"),
       "actions": [
         {
           "title": "Chercher dans le bunker",
@@ -589,6 +615,7 @@
     {
       "id": 24,
       "title": "Un indice est écrit : on dit que les morts gardent mieux les secrets que les vivants",
+      "background": require("/assets/bunker.png"),
       "actions": [
         {
           "title": "Aller au cimetière",
@@ -613,9 +640,10 @@
     {
       "id": 25,
       "title": "Tu es revenu au cimetière, où souhaites-tu chercher l'antidote ?",
+      "background": require("/assets/pierre.png"),
       "actions": [
         {
-          "title": "Sur la pièce tombale où le symbolse correspond au symbole du bunker",
+          "title": "Sur la pierre tombale où le symbole correspond au symbole du bunker",
           "to": 26
         },
         {
@@ -637,6 +665,7 @@
     {
       "id": 26,
       "title": "Félications ! tu as trouvé l'antidote",
+      "background": require("/assets/antidote.png"),
       "actions": [
         {
           "title": "Courrir en dehors du cimetière",
@@ -661,6 +690,7 @@
     {
       "id": 27,
       "title": "En sortant du cimetière un loup t'as mordu !",
+      "background": require("/assets/loup.png"),
       "actions": [
         {
           "title": "Prendre l'antidote et sortir de la ville",
@@ -685,6 +715,7 @@
     {
       "id": 28,
       "title": "Tu as partagé l'antidote, tu as sauvé le peuple ! Tu dois prendre une dernière décison !",
+      "background": require("/assets/peuple.png"),
       "actions": [
         {
           "title": "Convaincre le peuple de fuir la ville",
@@ -709,10 +740,11 @@
     {
       "id": 29,
       "title": "VIIIIIITE ! les loups vous suivent de très près !!!",
+      "background": require("/assets/meute.png"),
       "actions": [
         {
           "title": "Utiliser la clé trouvée précédement pour fermer les grilles de la ville",
-          "to": 30
+          "to": "/win"
         },
         {
           "title": "Continuer de courrir",
@@ -731,7 +763,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": "game",
       "title": "gagné"
     }
   ]

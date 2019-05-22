@@ -1,9 +1,11 @@
 <template>
   <div class="big-header">
-    <h1>Character</h1>
+    <h1>Choisissez votre personnage</h1>
     <br>
-    <router-link class="button" to="/game/2" @click.native.prevent="sexe('female')">Fille</router-link>
-    <router-link class="button" to="/game/2" @click.native.prevent="sexe('male')">Garçon</router-link>
+    <div class="choices">
+      <router-link class="button" to="/game/2" @click.native.prevent="sexe('female')">Fille</router-link>
+      <router-link class="button" to="/game/2" @click.native.prevent="sexe('male')">Garçon</router-link>
+    </div>
   </div>
 </template>
 

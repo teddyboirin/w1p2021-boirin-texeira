@@ -2,13 +2,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
 
 $background: #1c1c1c;
-
+* {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 body,
 button,
 input,
 select,
 textarea {
   font-family: "Roboto";
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .big-header {
@@ -20,18 +25,30 @@ textarea {
   flex-wrap: wrap;
   flex-direction: column;
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .button {
   color: $background;
   text-decoration: none;
-  background: white;
+  background-image: url('../question.png');
+  color:white;
   padding: 5px;
   border-radius: 5px;
   display: inline-block;
   border: none;
   margin-bottom: 10px;
   margin-top:10px;
+  height: 100px;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.603) 0 0 6px;
+
 }
 .pane-leave-active,
 .pane-enter-active {
@@ -83,6 +100,7 @@ textarea {
 .background__one {
   background: url('../Background1.png');
   background-size: cover;
+  background-repeat:no-repeat;
 }
 
 .game {
@@ -107,4 +125,27 @@ textarea {
     text-shadow: black 0 0 3px;
     box-shadow: black 0 0 3px;
   }
+}
+
+.choices {
+  height: 300px;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.question {
+  background-image: url('../question.png');
+  border-radius: 10px;
+  height: 100px;
+  width: 622px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
