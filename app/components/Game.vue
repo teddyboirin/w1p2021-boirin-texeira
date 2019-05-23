@@ -14,7 +14,6 @@
           v-bind:action="action"
           v-bind:key="action.title"
           @click="saveStep"
-          @click="redirectWin"
         >
           <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
         </li>
@@ -33,13 +32,12 @@
         v-for="action in step.actions"
         v-bind:action="action"
         v-bind:key="action.title"
-        @click="saveStep"
-        @click="redirectWin"
-      >
+        @click="saveStep">
         <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
       </li>
     </ul>
     <router-link class="button" v-if="$route.params.id > 100" to="/loose">Accéder aux statistiques</router-link>
+    </div>
     </div>
   </div>
 </template>

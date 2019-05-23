@@ -74,7 +74,7 @@ textarea {
 }
 
 .pane-enter-active {
-  animation: fake 2s;
+  animation: fake 1s;
 
   &::after {
     animation: slideEnter 1s ease 1s;
