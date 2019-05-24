@@ -1,6 +1,6 @@
 # Le site dont vous êtes le héros
 
-URL du site : www.teddyboirin.com/game
+URL du site : https://betweenthedeath.netlify.com/
 
 ### Groupe
 

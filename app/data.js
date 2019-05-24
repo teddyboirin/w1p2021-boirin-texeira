@@ -32,6 +32,7 @@ export default {
     {
       "id": 102,
       "title": "Il fallait rester dans la chambre !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -57,6 +58,7 @@ export default {
     {
       "id": 103,
       "title": "Tu aurais du sauter par la fenêtre ! Des morts-vivants rodent dans l'hopital",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -82,6 +84,7 @@ export default {
     {
       "id": 104,
       "title": "Aie! Tu as pris le mauvais chemin",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -107,6 +110,7 @@ export default {
     {
       "id": 105,
       "title": "Tu as été hypnotiser par la lumière de l'otel !! ",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -132,6 +136,7 @@ export default {
     {
       "id": 106,
       "title": "Le magasin était truffé de piège, tu es mort !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -157,6 +162,7 @@ export default {
     {
       "id": 107,
       "title": "La voiture a explosé lorsque tu as essayé de la démarrer",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -182,6 +188,7 @@ export default {
     {
       "id": 108,
       "title": "La bague était en fait une bague divine qui t'as fais perde la tête, tu t'es suicidé !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -218,6 +225,7 @@ export default {
     {
       "id": 109,
       "title": "Le loup est plus rapide que toi! il t'a rattrapé et tu es mort.",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -228,6 +236,7 @@ export default {
     {
       "id": 1009,
       "title": "Tu aurais du combattre le loup ! Il t'a rattrapé et tu es mort !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -254,6 +263,7 @@ export default {
     {
       "id": 110,
       "title": "Tu as bien fais de laisser le cadavre et de ne pas te nourrir car le loup était empoisonné !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -280,6 +290,7 @@ export default {
     {
       "id": 111,
       "title": "Hélas !! un gros vase t'es tombé dessus lorsque tu as essayé d'ouvrir l'armoire !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -305,6 +316,7 @@ export default {
     {
       "id": 112,
       "title": "La maison était un endroit sur mais pas longtemps, des créatures ont réussis à pénétrer à l'intérieur et t'ont manger",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -330,6 +342,7 @@ export default {
     {
       "id": 113,
       "title": "Les cris des enfants étaient en réalité un piège dans lequel tu es tombé. Direction le cimetière !!",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -355,6 +368,7 @@ export default {
     {
       "id": 114,
       "title": "Bravo ! tu as fais du stop mais tu es tombé sur la mauvaise personne... ",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -380,6 +394,7 @@ export default {
     {
       "id": 115,
       "title": "Attendre n'était pas la solution, il fallait te souvenir que la nuit est dangereuse ici, surtout si tu es vulnerable",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -405,6 +420,7 @@ export default {
     {
       "id": 116,
       "title": "Il y avait un trou juste avant d'atteindre la fenêtre, un loup t'attendait ",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -430,6 +446,7 @@ export default {
     {
       "id": 117,
       "title": "Admirer c'est bien, mais ne pas se faire repérer c'est mieux !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -455,6 +472,7 @@ export default {
     {
       "id": 118,
       "title": "Les loups ne partiront sûrement pas, ils t'ont même repérer et ont trouvés un moyen d'entrer pour te rendre visite !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -480,6 +498,7 @@ export default {
     {
       "id": 119,
       "title": "Le gaz est silencieux tant dans la maison qu'au bout de ton briquet ! tu as fais tout explosé !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -505,6 +524,7 @@ export default {
     {
       "id": 120,
       "title": "Il y avait un zombie caché dans le frigo !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -530,31 +550,7 @@ export default {
     {
       "id": 121,
       "title": "Il fallait suivre le chemin indiqué ! tu es tombé dans une embuscade",
-      "actions": [
-        {
-          "title": "Recommencer",
-          "to": 2
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "title": "Tu es arrivé dans un bunker où le symbole de la carte correspond au symbole sur la porte de ce bunker",
-      "background": require("/assets/bunker.png"),
-      "actions": [
-        {
-          "title": "Lire les notes posées sur la table du bunker",
-          "to": 22
-        },
-        {
-          "title": "Sortir par l'autre porte",
-          "to": 121
-        }
-      ]
-    },
-    {
-      "id": 121,
-      "title": "Il fallait rester dans le bunker, tu allais trouver un indice très important",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -564,22 +560,23 @@ export default {
     },
     {
       "id": 22,
-      "title": "Tu as trouvé une note où des informations à propos de cette ville étaient notées",
-      "background": require("/assets/notes.png") + 'background-size: cover',
+      "title": "Tu es arrivé dans un bunker où le symbole de la carte correspond au symbole sur la porte de ce bunker",
+      "background": require("/assets/bunker.png"),
       "actions": [
         {
-          "title": "Continuer de lire",
+          "title": "Lire les notes posées sur la table du bunker",
           "to": 23
         },
         {
-          "title": "Arrêter la lecture",
+          "title": "Sortir par l'autre porte",
           "to": 122
         }
       ]
     },
     {
       "id": 122,
-      "title": "Tu as fais l'erreur de ne pas continuer de lire, hélas !",
+      "title": "Il fallait rester dans le bunker, tu allais trouver un indice très important",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -589,22 +586,23 @@ export default {
     },
     {
       "id": 23,
-      "title": "Oui, tu as bien lu ! il y a bien un antidote caché dans ce bunker !",
-      "background": require("/assets/note__antidote.png"),
+      "title": "Tu as trouvé une note où des informations à propos de cette ville étaient notées",
+      "background": require("/assets/notes.png") + 'background-size: cover',
       "actions": [
         {
-          "title": "Chercher dans le bunker",
-          "to": 123
+          "title": "Continuer de lire",
+          "to": 24
         },
         {
-          "title": "Continuer de lire les notes",
-          "to": 24
+          "title": "Arrêter la lecture",
+          "to": 123
         }
       ]
     },
     {
       "id": 123,
-      "title": "Il fallait continuer de lire les notes !",
+      "title": "Tu as fais l'erreur de ne pas continuer de lire, hélas !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -614,22 +612,23 @@ export default {
     },
     {
       "id": 24,
-      "title": "Un indice est écrit : on dit que les morts gardent mieux les secrets que les vivants",
-      "background": require("/assets/bunker.png"),
+      "title": "Oui, tu as bien lu ! il y a bien un antidote caché dans ce bunker !",
+      "background": require("/assets/note__antidote.png"),
       "actions": [
         {
-          "title": "Aller au cimetière",
-          "to": 25
+          "title": "Chercher dans le bunker",
+          "to": 124
         },
         {
-          "title": "Rester ici",
-          "to": 124
+          "title": "Continuer de lire les notes",
+          "to": 25
         }
       ]
     },
     {
       "id": 124,
-      "title": "Tu aurais du mieux comprendre l'indice",
+      "title": "Il fallait continuer de lire les notes !",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -639,22 +638,23 @@ export default {
     },
     {
       "id": 25,
-      "title": "Tu es revenu au cimetière, où souhaites-tu chercher l'antidote ?",
-      "background": require("/assets/pierre.png"),
+      "title": "Un indice est écrit : on dit que les morts gardent mieux les secrets que les vivants",
+      "background": require("/assets/bunker.png"),
       "actions": [
         {
-          "title": "Sur la pierre tombale où le symbole correspond au symbole du bunker",
+          "title": "Aller au cimetière",
           "to": 26
         },
         {
-          "title": "Dans la tombe que tu as déjà fouillé",
+          "title": "Rester ici",
           "to": 125
         }
       ]
     },
     {
       "id": 125,
-      "title": "Le zombie mort s'est reveillé car la nuit est tombée",
+      "title": "Tu aurais du mieux comprendre l'indice",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -664,22 +664,23 @@ export default {
     },
     {
       "id": 26,
-      "title": "Félications ! tu as trouvé l'antidote",
-      "background": require("/assets/antidote.png"),
+      "title": "Tu es revenu au cimetière, où souhaites-tu chercher l'antidote ?",
+      "background": require("/assets/pierre.png"),
       "actions": [
         {
-          "title": "Courrir en dehors du cimetière",
+          "title": "Sur la pierre tombale où le symbole correspond au symbole du bunker",
           "to": 27
         },
         {
-          "title": "Visiter une dernière fois",
+          "title": "Dans la tombe que tu as déjà fouillé",
           "to": 126
         }
       ]
     },
     {
       "id": 126,
-      "title": "Tu aurais du fuir car tu avais trouvé l'antitdote, oublies pas, la nuit est dangereuse ici !! ",
+      "title": "Le zombie mort s'est reveillé car la nuit est tombée",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -689,22 +690,23 @@ export default {
     },
     {
       "id": 27,
-      "title": "En sortant du cimetière un loup t'as mordu !",
-      "background": require("/assets/loup.png"),
+      "title": "Félications ! tu as trouvé l'antidote",
+      "background": require("/assets/antidote.png"),
       "actions": [
         {
-          "title": "Prendre l'antidote et sortir de la ville",
-          "to": 127
+          "title": "Courrir en dehors du cimetière",
+          "to": 28
         },
         {
-          "title": "Partager l'antidote avec le peuple",
-          "to": 28
+          "title": "Visiter une dernière fois",
+          "to": 127
         }
       ]
     },
     {
       "id": 127,
-      "title": "Tu as pris l'antidote, mais un autre zombie t'as mordu et il n'y en a plus !! ",
+      "title": "Tu aurais du fuir car tu avais trouvé l'antitdote, oublies pas, la nuit est dangereuse ici !! ",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -714,22 +716,23 @@ export default {
     },
     {
       "id": 28,
-      "title": "Tu as partagé l'antidote, tu as sauvé le peuple ! Tu dois prendre une dernière décison !",
-      "background": require("/assets/peuple.png"),
+      "title": "En sortant du cimetière un loup t'as mordu !",
+      "background": require("/assets/loup.png"),
       "actions": [
         {
-          "title": "Convaincre le peuple de fuir la ville",
-          "to": 29
+          "title": "Prendre l'antidote et sortir de la ville",
+          "to": 128
         },
         {
-          "title": "Écouter les dires du peuple, et rester dans cette ville ",
-          "to": 128
+          "title": "Partager l'antidote avec le peuple",
+          "to": 29
         }
       ]
     },
     {
       "id": 128,
-      "title": "Tu n'aurais jamais du écouter le peuple, il restait une personne contaminée ",
+      "title": "Tu as pris l'antidote, mais un autre zombie t'as mordu et il n'y en a plus !! ",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -739,6 +742,32 @@ export default {
     },
     {
       "id": 29,
+      "title": "Tu as partagé l'antidote, tu as sauvé le peuple ! Tu dois prendre une dernière décison !",
+      "background": require("/assets/peuple.png"),
+      "actions": [
+        {
+          "title": "Convaincre le peuple de fuir la ville",
+          "to": 30
+        },
+        {
+          "title": "Écouter les dires du peuple, et rester dans cette ville ",
+          "to": 129
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Tu n'aurais jamais du écouter le peuple, il restait une personne contaminée ",
+      "background": require("/assets/pagedead.png"),
+      "actions": [
+        {
+          "title": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 30,
       "title": "VIIIIIITE ! les loups vous suivent de très près !!!",
       "background": require("/assets/meute.png"),
       "actions": [
@@ -748,13 +777,14 @@ export default {
         },
         {
           "title": "Continuer de courrir",
-          "to": 129
+          "to": 130
         }
       ]
     },
     {
-      "id": 129,
+      "id": 130,
       "title": "Tu n'as pas utilisé la clé depuis le début ! tu aurais du l'utiliser pour fermer cette ville hantér !!!! ",
+      "background": require("/assets/pagedead.png"),
       "actions": [
         {
           "title": "Recommencer",
@@ -764,7 +794,8 @@ export default {
     },
     {
       "id": "game",
-      "title": "gagné"
+      "title": "gagné",
+      "background": require("/assets/win.png"),
     }
   ]
 }

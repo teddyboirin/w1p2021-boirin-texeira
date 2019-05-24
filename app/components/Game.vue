@@ -4,6 +4,9 @@
     class="big-header"
     :style="{background: 'url(' + background + ')' , backgroundSize: 'cover'}"
   >
+
+    <audio id="soundTrack" src="../assets/audio.mp3" autoplay></audio>
+
     <div class="question">
       <h1 v-if="$route.params.id">{{ step.title }}</h1>
     </div>
@@ -27,7 +30,7 @@
       </div>
     </ul>
     <ul v-else-if="$route.params.id == 9 && male == false && $route.params.id">
-       <div class="choices">
+       <div class="questions">
       <li
         v-for="action in step.actions"
         v-bind:action="action"
