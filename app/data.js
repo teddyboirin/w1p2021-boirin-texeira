@@ -262,7 +262,7 @@ export default {
     },
     {
       "id": 110,
-      "title": "Tu as bien fais de laisser le cadavre et de ne pas te nourrir car le loup était empoisonné !",
+      "title": "Hélas, le loup était empoisonné !",
       "background": require("/assets/pagedead.png"),
       "actions": [
         {
@@ -587,7 +587,7 @@ export default {
     {
       "id": 23,
       "title": "Tu as trouvé une note où des informations à propos de cette ville étaient notées",
-      "background": require("/assets/notes.png") + 'background-size: cover',
+      "background": require("/assets/notes.png"),
       "actions": [
         {
           "title": "Continuer de lire",
@@ -694,7 +694,7 @@ export default {
       "background": require("/assets/antidote.png"),
       "actions": [
         {
-          "title": "Courrir en dehors du cimetière",
+          "title": "Courir en dehors du cimetière",
           "to": 28
         },
         {
