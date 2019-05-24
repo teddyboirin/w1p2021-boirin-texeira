@@ -8,8 +8,8 @@ URL du site : https://betweenthedeath.netlify.com/
 - Céline Teixeira
 
 
-## 
-### Rendu final
+## Grille auto-eval
+
 
 Cette grille va vous permettre de pré-évaluer votre travail. Pour chaque ligne, indiquez *Oui*, *Non* ou *En partie*. Plus placez la grille en haut de votre fichier README.md. La non-complétion de la grille entraînera des malus.
 
